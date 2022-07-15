@@ -206,6 +206,7 @@ public class Customer {
 	public void setFile(MultipartFile file) {
 		this.file = file;
 	}
+}
 	
 	//Constructors
 	
