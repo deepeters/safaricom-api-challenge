@@ -21,11 +21,11 @@ public class CustomerController {
 	
 	@GetMapping(value="/")
 	public String home (Model model) {
-		model.addAttribute("film", new Customer());
+		model.addAttribute("customer", new Customer());
 		List <Customer> customers = customerService.findAll();
-		model.addAttribute("films", customers);
+		model.addAttribute("customers", customers);
 		
-		return "View/films";
+		return "View/customers";
 	}
 	
 	@PostMapping(value="/fileupload")
