@@ -19,100 +19,193 @@ public class Customer {
 	@Column(name = "id")
 	private Long id;
 	
-	@Column(name = "filmName")
-	private String filmName;
+	@Column(name = "name")
+	private String name;
 	
-	@Column(name = "filmYear")
-	private String filmYear;
+	@Column(name = "surname")
+	private String surname;
 	
-	@Column(name = "mainCharacter")
-	private String mainCharacter;
+	@Column(name = "age")
+	private String age;
 	
-	@Column(name = "mainPlanet")
-	private String mainPlanet;
+	@Column(name = "height")
+	private String height;
 	
-	@Column(name = "filmSummary")
-	public String filmSummary;
+	@Column(name = "addresses")
+	public String addresses;
 	
-	@Column(name = "filmRating")
-	public String filmRating;
+	@Column(name = "idNumber")
+	public String idNumber;
 	
-	@Column(name = "fileType")
-	public String fileType;
+	@Column(name = "passportNumber")
+	public String passportNumber;
+	
+	@Column(name = "nationality")
+	public String nationality;
+	
+	@Column(name = "dateCreated")
+	public String dateCreated;
+	
+	@Column(name = "lastUpdate")
+	public String lastUpdate;
+	
+	@Column(name = "active")
+	public boolean active;
+	
+	@Column(name = "lastUpdated")
+	public String lastUpdated;
+	
+	@Column(name = "expiryDate")
+	public String expiryDate;
 	
 	@Transient
 	private MultipartFile file;
 	
-	//Constructors
-	public Customer(String filmName, String filmYear, String mainCharacter, String mainPlanet, String filmSummary,
-			String filmRating, String fileType) {
-		super();
-		this.filmName = filmName;
-		this.filmYear = filmYear;
-		this.mainCharacter = mainCharacter;
-		this.mainPlanet = mainPlanet;
-		this.filmSummary = filmSummary;
-		this.filmRating = filmRating;
-		this.fileType = fileType;
-	}
 	public Customer() {
-		super();
+		
 	}
+	
 
-	//Getters and Setters
-	public Long getId() {
-		return id;
-	}
-	public String getFilmName() {
-		return filmName;
-	}
-	public String getFilmYear() {
-		return filmYear;
-	}
-	public String getMainCharacter() {
-		return mainCharacter;
-	}
-	public String getMainPlanet() {
-		return mainPlanet;
-	}
-	public String getFilmSummary() {
-		return filmSummary;
-	}
-	public String getFilmRating() {
-		return filmRating;
-	}
-	public String getFileType() {
-		return fileType;
-	}
-	public void setId(Long id) {
+	public Customer(Long id, String name, String surname, String age, String height, String addresses, String idNumber,
+			String passportNumber, String nationality, String dateCreated, String lastUpdate, boolean active,
+			String lastUpdated, String expiryDate, MultipartFile file) {
+		super();
 		this.id = id;
-	}
-	public void setFilmName(String filmName) {
-		this.filmName = filmName;
-	}
-	public void setFilmYear(String filmYear) {
-		this.filmYear = filmYear;
-	}
-	public void setMainCharacter(String mainCharacter) {
-		this.mainCharacter = mainCharacter;
-	}
-	public void setMainPlanet(String mainPlanet) {
-		this.mainPlanet = mainPlanet;
-	}
-	public void setFilmSummary(String filmSummary) {
-		this.filmSummary = filmSummary;
-	}
-	public void setFilmRating(String filmRating) {
-		this.filmRating = filmRating;
-	}
-	public void setFileType(String fileType) {
-		this.fileType = fileType;
-	}
-	public MultipartFile getFile() {
-		return file;
-	}
-	public void setFile(MultipartFile file) {
+		this.name = name;
+		this.surname = surname;
+		this.age = age;
+		this.height = height;
+		this.addresses = addresses;
+		this.idNumber = idNumber;
+		this.passportNumber = passportNumber;
+		this.nationality = nationality;
+		this.dateCreated = dateCreated;
+		this.lastUpdate = lastUpdate;
+		this.active = active;
+		this.lastUpdated = lastUpdated;
+		this.expiryDate = expiryDate;
 		this.file = file;
 	}
 
-}
+	public Long getId() {
+		return id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public String getSurname() {
+		return surname;
+	}
+
+	public String getAge() {
+		return age;
+	}
+
+	public String getHeight() {
+		return height;
+	}
+
+	public String getAddresses() {
+		return addresses;
+	}
+
+	public String getIdNumber() {
+		return idNumber;
+	}
+
+	public String getPassportNumber() {
+		return passportNumber;
+	}
+
+	public String getNationality() {
+		return nationality;
+	}
+
+	public String getDateCreated() {
+		return dateCreated;
+	}
+
+	public String getLastUpdate() {
+		return lastUpdate;
+	}
+
+	public boolean isActive() {
+		return active;
+	}
+
+	public String getLastUpdated() {
+		return lastUpdated;
+	}
+
+	public String getExpiryDate() {
+		return expiryDate;
+	}
+
+	public MultipartFile getFile() {
+		return file;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public void setSurname(String surname) {
+		this.surname = surname;
+	}
+
+	public void setAge(String age) {
+		this.age = age;
+	}
+
+	public void setHeight(String height) {
+		this.height = height;
+	}
+
+	public void setAddresses(String addresses) {
+		this.addresses = addresses;
+	}
+
+	public void setIdNumber(String idNumber) {
+		this.idNumber = idNumber;
+	}
+
+	public void setPassportNumber(String passportNumber) {
+		this.passportNumber = passportNumber;
+	}
+
+	public void setNationality(String nationality) {
+		this.nationality = nationality;
+	}
+
+	public void setDateCreated(String dateCreated) {
+		this.dateCreated = dateCreated;
+	}
+
+	public void setLastUpdate(String lastUpdate) {
+		this.lastUpdate = lastUpdate;
+	}
+
+	public void setActive(boolean active) {
+		this.active = active;
+	}
+
+	public void setLastUpdated(String lastUpdated) {
+		this.lastUpdated = lastUpdated;
+	}
+
+	public void setExpiryDate(String expiryDate) {
+		this.expiryDate = expiryDate;
+	}
+
+	public void setFile(MultipartFile file) {
+		this.file = file;
+	}
+	
+	//Constructors
+	
