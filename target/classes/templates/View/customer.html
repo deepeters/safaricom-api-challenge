@@ -3,7 +3,7 @@
 
 <head>
 <meta charset = "ISO-8859-1">
-<title> Read Film Data </title>
+<title> Read Customer Data </title>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" media="all" href="/css/styles.css" th:href = "@{/css/styles.css}">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,7 +37,7 @@
   </button>
 </div>
 
-<form action="" th:action="@{'/fileupload'}" th:object="${film}" method="POST" enctype='multipart/form-data'>
+<form action="" th:action="@{'/fileupload'}" th:object="${customer}" method="POST" enctype='multipart/form-data'>
   <div class="form-group">
     <label for="fileupload">File Upload (JSON): </label>
     <div class = "myForm container">

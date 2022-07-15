@@ -207,6 +207,5 @@ public class Customer {
 		this.file = file;
 	}
 }
-	
-	//Constructors
+
 	
