@@ -1,19 +1,11 @@
 package com.external.files.readdata.Service;
 
 import java.io.InputStream;
-import java.io.InputStreamReader;
 import java.util.Arrays;
-import java.util.Iterator;
 import java.util.List;
 
 import org.apache.commons.io.FilenameUtils;
-import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-import org.apache.poi.ss.usermodel.Row;
-import org.apache.poi.ss.usermodel.CellType;
-import org.apache.poi.ss.usermodel.Sheet;
-import org.apache.poi.ss.usermodel.Workbook;
-import org.apache.poi.ss.util.NumberToTextConverter;
-import org.apache.poi.xssf.usermodel.XSSFWorkbook;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -22,9 +14,7 @@ import org.springframework.web.multipart.MultipartFile;
 import com.external.files.readdata.Model.Customer;
 import com.external.files.readdata.Repository.CustomerRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.fasterxml.jackson.dataformat.xml.XmlMapper;
-import com.opencsv.CSVReader;
-import com.opencsv.CSVReaderBuilder;
+
 
 @Service
 @Transactional

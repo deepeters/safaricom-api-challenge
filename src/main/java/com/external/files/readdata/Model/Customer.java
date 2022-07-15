@@ -31,8 +31,8 @@ public class Customer {
 	@Column(name = "height")
 	private String height;
 	
-	@Column(name = "addresses")
-	public String addresses;
+	@Column(name = "address")
+	public String address;
 	
 	@Column(name = "idNumber")
 	public String idNumber;
@@ -75,7 +75,7 @@ public class Customer {
 		this.surname = surname;
 		this.age = age;
 		this.height = height;
-		this.addresses = addresses;
+		this.address = addresses;
 		this.idNumber = idNumber;
 		this.passportNumber = passportNumber;
 		this.nationality = nationality;
@@ -107,8 +107,8 @@ public class Customer {
 		return height;
 	}
 
-	public String getAddresses() {
-		return addresses;
+	public String getAddress() {
+		return address;
 	}
 
 	public String getIdNumber() {
@@ -167,8 +167,8 @@ public class Customer {
 		this.height = height;
 	}
 
-	public void setAddresses(String addresses) {
-		this.addresses = addresses;
+	public void setAddresses(String address) {
+		this.address = address;
 	}
 
 	public void setIdNumber(String idNumber) {
