@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <row>
+    <filmName>Star Wars Story: Rogue One</filmName>
+    <filmYear>2016</filmYear>
+    <mainCharacter>Jyn Erso</mainCharacter>
+    <mainPlanet>Lah&apos;mu</mainPlanet>
+    <filmSummary>Jyn&apos;s father is forcibly taken by the Galactic Empire to help them complete the Death Star. When she grows up, she joins a group of resistance fighters who aim to steal the Empire&apos;s blueprints.</filmSummary>
+    <filmRating>84%</filmRating>
+  </row>
+  <row>
+    <filmName>Star Wars Story: Solo</filmName>
+    <filmYear>2018</filmYear>
+    <mainCharacter>Hans Solo </mainCharacter>
+    <mainPlanet>Corellia</mainPlanet>
+    <filmSummary>In a galaxy where hyperfuel is in high demand, Han Solo gets involved in a large-scale heist within the criminal underworld and meets individuals who change his life.</filmSummary>
+    <filmRating>70%</filmRating>
+  </row>
+  <row>
+    <filmName>Star Wars Story: The Clone Wars</filmName>
+    <filmYear>2008</filmYear>
+    <mainCharacter>Ahsoka Tano</mainCharacter>
+    <mainPlanet>Christophsis</mainPlanet>
+    <filmSummary>As more star systems get swept into the Clone Wars, the valiant Jedi knights struggle to maintain order. Anakin Skywalker and his Padawan learner Ahsoka Tano embark on a missions.</filmSummary>
+    <filmRating>89%</filmRating>
+  </row>
+</root>

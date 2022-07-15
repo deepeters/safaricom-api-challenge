@@ -1,0 +1,56 @@
+[
+  {
+    "filmName": "Star Wars: Episode IV - A New Hope",
+    "filmYear": "1977",
+    "mainCharacter": [
+      "Luke Skywalker",
+      "Han Solo",
+      "Princess Leia Organa",
+      "Ben Kenobi",
+      "Darth Vader",
+      "C-3P0",
+      "R2-D2",
+      "Chewbacca"
+    ],
+    "mainPlanet": "Tatooine",
+    "filmSummary": "Part IV in George Lucas' epic, Star Wars: A New Hope opens with a Rebel ship being boarded by the tyrannical Darth Vader. The plot then follows the life of a simple farm boy, Luke Skywalker, as he and his newly met allies (Han Solo, Chewbacca, Obi-Wan Kenobi, C-3PO, R2-D2) attempt to rescue a Rebel leader, Princess Leia, from the clutches of the Empire. The conclusion is culminated as the Rebels, including Skywalker and flying ace Wedge Antilles make an attack on the Empire's most powerful and ominous weapon, the Death Star.",
+    "filmRating": "88%"
+  },
+
+  {
+    "filmName": "Star Wars: Episode V - The Empire Strikes Back",
+    "filmYear": "1980",
+    "mainCharacter": [
+      "Luke Skywalker",
+      "Han Solo",
+      "Princess Leia Organa",
+      "Darth Vader",
+      "C-3P0",
+      "R2-D2",
+      "Chewbacca",
+      "Lando Calrissian",
+      "Boba Fett"
+    ],
+    "mainPlanet": "Tatooine",
+    "filmSummary": "Fleeing the evil Galactic Empire, the Rebels abandon their new base in an assault with the Imperial AT-AT walkers on the ice world of Hoth. Princess Leia, Han Solo, Chewbacca and the droid C-3PO escape in the Millennium Falcon, but are later captured by Darth Vader on Bespin. Meanwhile, Luke Skywalker and the droid R2-D2 follows Obi-Wan Kenobi's posthumous command, and receives Jedi training from Master Yoda on the swamp world of Dagobah. Will Skywalker manage to rescue his friends from the Dark Lord?",
+    "filmRating": "89%"
+  },
+
+  {
+    "filmName": "Star Wars: Episode VI - Return of the Jedi",
+    "filmYear": "1983",
+    "mainCharacter": [
+      "Luke Skywalker",
+      "Han Solo",
+      "Princess Leia Organa",
+      "Darth Vader",
+      "C-3P0",
+      "Chewbacca",
+      "The Emperor",
+      "Boba Fett"
+    ],
+    "mainPlanet": "Tatooine",
+    "filmSummary": "Darth Vader and the Empire are building a new, indestructible Death Star. Meanwhile, Han Solo has been imprisoned, and Luke Skywalker has sent R2-D2 and C-3PO to try and free him. Princess Leia - disguised as a bounty hunter - and Chewbacca go along as well. The final battle takes place on the moon of Endor, with its natural inhabitants, the Ewoks, lending a hand to the Rebels. Will Darth Vader and the Dark Side overcome the Rebels and take over the universe?",
+    "filmRating": "89%"
+  }
+]

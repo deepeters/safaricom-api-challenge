@@ -1,0 +1,35 @@
+body {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+body {
+	background-color: #2C3034;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(1px + 2vmin);
+	color: white;
+}
+
+nav {
+	background-color: #212529;
+	min-width: 170vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(1px + 2vmin);
+	color: white;
+}
+
+thead {
+	background-color: #2a3b4c;
+}
+
+
+.myForm {
+	display: inline-flex;
+	width: fit;
+}
